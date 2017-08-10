@@ -1,0 +1,51 @@
+body {
+  background: #e2e1e0;
+}
+
+#wrapper{
+ max-width: 60%;
+margin: 0 auto !important;
+float: none !important;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#main{
+  display:inline-block;
+}
+
+#header{
+border-bottom:1px solid rgb(217, 217, 217);
+   background: white;
+ padding: 10px;
+}
+
+#yourdiv{
+	padding: 20px;
+   background: white;
+}
+
+#footer{
+border-top:1px solid rgb(217, 217, 217);
+background: white;
+padding: 10px;
+}
+
+textarea{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 50%;
+    height: 150px;
+}
+input[type=submit]{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 50%;
+	background-color: #699DB6;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    cursor: pointer;
+}
